@@ -1,4 +1,4 @@
 resource "local_file" "file" {
-  content  = "Hello, World! It's Terraform Cloud!"
-  filename = "hello.txt"
+  content  = "Hello, World!"
+  filename = var.filename
 }
